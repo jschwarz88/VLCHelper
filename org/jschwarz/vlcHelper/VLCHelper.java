@@ -25,10 +25,12 @@ import com.amazon.speech.ui.SimpleCard;
 /**
  * @author jschwarz
  * 
+ *         Start VLC using vlc.exe --intf rc --rc-host localhost:[PORT]
+ * 
  *         Commands that can be executed via TCP-Connection:
  * 
- *         play . . . . . . . . . . . . . . . . . . play stream pause . . . . .
- *         . . . . . . . . . . . toggle pause
+ *         play, pause, seek
+ * 
  * 
  */
 public class VLCHelper implements Speechlet {
