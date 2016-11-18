@@ -5,7 +5,8 @@ import java.util.Set;
 
 import com.amazon.speech.speechlet.lambda.SpeechletRequestStreamHandler;
 
-public class vlcHelperRequestStreamHandler extends SpeechletRequestStreamHandler {
+public class vlcHelperRequestStreamHandler extends
+		SpeechletRequestStreamHandler {
 
 	private static final Set<String> supportedApplicationIds = new HashSet<String>();
 	static {
@@ -15,7 +16,7 @@ public class vlcHelperRequestStreamHandler extends SpeechletRequestStreamHandler
 		 * in this Set.
 		 */
 		supportedApplicationIds
-				.add("amzn1.ask.skill.e55ac3d4-e6f5-418b-add2-bcefa9e0f575");
+				.add("amzn1.ask.skill.e7dbd308-1ae6-4672-9359-f72cad6a6ac6");
 	}
 
 	public vlcHelperRequestStreamHandler() {

@@ -25,6 +25,11 @@ import com.amazon.speech.ui.SimpleCard;
 /**
  * @author jschwarz
  * 
+ *         Commands that can be executed via TCP-Connection:
+ * 
+ *         play . . . . . . . . . . . . . . . . . . play stream pause . . . . .
+ *         . . . . . . . . . . . toggle pause
+ * 
  */
 public class VLCHelper implements Speechlet {
 
