@@ -1,2 +1,2 @@
-# VNCHelper
-Alexa Skill to control VNC remotly by using vlc -intf rc
+# VLCHelper
+Alexa Skill to control VLC remotly by using vlc -intf rc
